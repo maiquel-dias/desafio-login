@@ -1,0 +1,78 @@
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left-section {
+    display: none;
+  }
+
+}
+
+@media (max-width: 375px) {
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin:24px;
+    }
+  
+    .left-section {
+     display: none;
+    }
+  
+    .right-section {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .login-box {
+      width: 100%;
+    }
+    .login-box h3 {
+      font-size: 24px; 
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      line-height: 26.11px;
+      margin-top: 8px;
+      margin-bottom: 40px;
+
+    }
+    .login-box h2, label, .forgot-password , .checkbox, .remember-me label{
+      font-size: 14px; 
+      margin:0;
+      padding: 0;
+      font-size: 14px;
+      line-height: 15.23px;
+  }
+
+  .login-box input{
+    font-size: 16px; 
+    line-height: 17.41px;
+}
+
+
+.login-btn, .google-btn {
+    font-size: 16px; 
+    padding: 14px 32px 14px 32px;
+    gap:12px;
+    
+}
+.google-btn img {
+  width: 16px;
+  height: 16px;
+  
+}
+.signup-link, .signup-link a {
+  font-size: 16px; 
+  margin-top: 32px;
+  line-height: 17,41px;
+  margin-top: 64px;
+}
+
+}
+  

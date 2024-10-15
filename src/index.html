@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/src/assets/styles/styles.css" rel="stylesheet">
     <link href="/src/assets/styles/fonts.css" rel="stylesheet">
-    <link href="/src/assets/styles/media.css" rel="stylesheet">
+    <link href="/src/assets/styles/media.css" rel="stylesheet">   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -18,9 +18,11 @@
         </div>
         <div class="right-section">
           <div class="login-box">
-            <h2>Bem-vindo de volta</h2>
-            <h3>Faça login na sua conta</h3>
-            <form>
+
+            <form class="login-form">
+              <h2>Bem-vindo de volta</h2>
+              <h3>Faça login na sua conta</h3>
+            
               <label for="email">E-mail</label>
               <input type="email" id="email" placeholder="exemplo@gmail.com">
               
@@ -28,39 +30,27 @@
               <input type="password" id="senha" placeholder="Digite sua senha">
               
               <div class="options">
-                <div class="remember-me">
-                  <input type="checkbox" id="lembrar">
-                  <label for="lembrar">Lembre de mim</label>
-                </div>
-                <div class="forgot-password">Esqueceu sua senha?</div>
-              </div>
+                <label class="remember-me">
+                <input type="checkbox" class="checkbox" id="remember"/>
+                Lembre de mim </label>
+                <a href="#" class="forgot-password">Esqueceu sua senha?</a>
+            </div>
     
               <button type="submit" class="login-btn">Entrar na conta</button>
               <button type="button" class="google-btn">
                 <img src="./assets/images/icon.png" alt="Google Logo" class="google-logo">
                 Ou faça login com o Google
               </button>
-              <input type="submit" onclick="logar(); return false">
+              
             </form>
-            <script>
-                function logar(){
-                    var email = document.getElementById('email').value;
-                    var senha = document.getElementById('senha').value;
-
-                    if(email == "teste@teste.com" && senha == "teste"){
-                        alert('Sucesso!');
-                        location.href = "home.html";
-                    }else{
-                        alert('Usuario ou senha Incorretos!')
-                    }
-                }
-            </script>
-    
+              
             <div class="signup-link">
               Não tem uma conta? <a href="#">Cadastre-se</a>
             </div>
           </div>
         </div>
       </div>
+      <script src="/src/scripts/main.js">
+      </script>
 </body>
 </html>
