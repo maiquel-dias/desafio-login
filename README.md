@@ -1,17 +1,21 @@
 # HTML e CSS Login Page
 
-Este repositório contém um exemplo de página de login criada com HTML e CSS. O objetivo foi criar uma página de login responsiva e atraente, com uma divisão da tela na horizontal e mantendo as cores e alinhamentos originais.
+Este repositório contém um exemplo de página de login criada com **HTML** e **CSS**. O objetivo foi criar uma página de login responsiva e atraente, com uma divisão da tela na horizontal e mantendo as cores e alinhamentos originais.
 
 ## Principais Temas Abordados
 
-- Criação de uma estrutura HTML semântica para a página de login
-- Estilização da página com CSS, utilizando flexbox e propriedades de background
-- Criação de uma divisão da tela na horizontal com flexbox
-- Manutenção das cores e alinhamentos originais
+- Criação de uma estrutura HTML semântica para a página de login.
+- Estilização da página com CSS, utilizando **flexbox** e propriedades de background.
+- Criação de uma divisão da tela na horizontal com **flexbox**.
+- Manutenção das cores e alinhamentos originais.
 
 ## Deploy no Netlify
 
-Este projeto foi deployado no Netlify, uma plataforma de hospedagem de sites que oferece recursos de deploy rápido e fácil. Para deployar o projeto no Netlify, siga os seguintes passos:
+Este projeto foi deployado no **Netlify**, uma plataforma de hospedagem de sites que oferece recursos de deploy rápido e fácil. Para acessar o projeto deployado, clique [aqui](https://maiquel-dias-login.netlify.app/) ou acesse diretamente a seguinte URL:
+
+**[https://maiquel-dias-login.netlify.app/](https://maiquel-dias-login.netlify.app/)**
+
+Para realizar o deploy do projeto no Netlify, siga os passos abaixo:
 
 1. Crie uma conta no Netlify e faça login.
 2. Clique em **"New site from Git"** e selecione o repositório do projeto.
@@ -27,8 +31,9 @@ Este projeto foi deployado no Netlify, uma plataforma de hospedagem de sites que
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT. Você é livre para usar, modificar e distribuir este projeto como desejar.
+Este projeto está licenciado sob a licença **MIT**. Você é livre para usar, modificar e distribuir este projeto como desejar.
 
 ## Contato
 
 Se tiver alguma dúvida ou precisar de ajuda, por favor, não hesite em entrar em contato comigo.
+
